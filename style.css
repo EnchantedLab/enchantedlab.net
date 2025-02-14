@@ -25,17 +25,11 @@ h1 {
     margin-bottom: 2rem;
 }
 
-@keyframes hideAfterPlay {
-    0%, 99% { opacity: 1; }
-    100% { opacity: 0; }
-}
-
 .logo {
     max-width: 100%;
     height: auto;
     image-rendering: pixelated;
     image-rendering: crisp-edges;
-    animation: hideAfterPlay 3s forwards;
 }
 
 .subtitle-img {
